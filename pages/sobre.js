@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Menu from "../components/Menu";
 
-function Home(){
+function Sobre(){
     return <div>
         <Head>
             <meta charSet="utf-8" />
@@ -9,11 +9,11 @@ function Home(){
             <meta name="description" content="site sobre ..." />
             <meta name="author" content="Rayson - Mendes" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-            <title>Rayson - Home</title>
+            <title>Rayson - Sobre</title>
         </Head>
        < Menu />
         Welcome to Next.js!
         </div>
 }
 
-export default Home;
+export default Sobre;

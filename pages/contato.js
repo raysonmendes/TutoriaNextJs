@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Menu from "../components/Menu";
 
-function Home(){
+function Contato(){
     return <div>
         <Head>
             <meta charSet="utf-8" />
@@ -16,4 +16,4 @@ function Home(){
         </div>
 }
 
-export default Home;
+export default Contato;
